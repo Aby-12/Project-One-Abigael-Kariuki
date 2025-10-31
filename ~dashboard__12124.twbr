@@ -1,0 +1,1118 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (cleaned_aviation_data)' inline='true' name='federated.0snb0m2192y0k110t602u0c36aau' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_aviation_data' name='excel-direct.1oai4z31s2cnw811q3sgg0c4yk9f'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/AbigaelKariuki/Documents/Flatiron/Assignments/Phase_1/Research_project/data/cleaned_aviation_data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1oai4z31s2cnw811q3sgg0c4yk9f' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:U10001:no:A1:U10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Event.Id' ordinal='0' />
+            <column datatype='date' name='Event.Date' ordinal='1' />
+            <column datatype='string' name='Make' ordinal='2' />
+            <column datatype='string' name='Model' ordinal='3' />
+            <column datatype='string' name='Aircraft.damage' ordinal='4' />
+            <column datatype='string' name='Amateur.Built' ordinal='5' />
+            <column datatype='string' name='Country' ordinal='6' />
+            <column datatype='integer' name='Number.of.Engines' ordinal='7' />
+            <column datatype='string' name='Engine.Type' ordinal='8' />
+            <column datatype='string' name='Purpose.of.flight' ordinal='9' />
+            <column datatype='string' name='Weather.Condition' ordinal='10' />
+            <column datatype='string' name='Broad.phase.of.flight' ordinal='11' />
+            <column datatype='string' name='Report.Status' ordinal='12' />
+            <column datatype='integer' name='Total.Fatal.Injuries' ordinal='13' />
+            <column datatype='integer' name='Total.Serious.Injuries' ordinal='14' />
+            <column datatype='integer' name='Total.Minor.Injuries' ordinal='15' />
+            <column datatype='integer' name='Total.Uninjured' ordinal='16' />
+            <column datatype='integer' name='year' ordinal='17' />
+            <column datatype='string' name='Injury Severity' ordinal='18' />
+            <column datatype='integer' name='is_fatal' ordinal='19' />
+            <column datatype='integer' name='is_severe' ordinal='20' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U10001:no:A1:U10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event.Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Event.Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Event.Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event.Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Event.Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Event.Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aircraft.damage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Aircraft.damage]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Aircraft.damage</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Amateur.Built</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Amateur.Built]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Amateur.Built</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number.of.Engines</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number.of.Engines]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Number.of.Engines</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Engine.Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Engine.Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Engine.Type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purpose.of.flight</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Purpose.of.flight]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Purpose.of.flight</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather.Condition</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Weather.Condition]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Weather.Condition</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Broad.phase.of.flight</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Broad.phase.of.flight]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Broad.phase.of.flight</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Report.Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Report.Status]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Report.Status</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Fatal.Injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Fatal.Injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Fatal.Injuries</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Serious.Injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Serious.Injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Serious.Injuries</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Minor.Injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Minor.Injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Minor.Injuries</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Uninjured</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Uninjured]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Uninjured</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Injury Severity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Injury Severity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Injury Severity</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RKE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_fatal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[is_fatal]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>is_fatal</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_severe</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[is_severe]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>is_severe</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]' role='measure' type='quantitative' />
+      <column caption='Is Fatal' datatype='integer' name='[is_fatal]' role='measure' type='quantitative' />
+      <column caption='Is Severe' datatype='integer' name='[is_severe]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1b6rp2609wk6rg1fy3hnf16jpj53.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/31/2025 02:22:21 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Event.Id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Event.Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Event.Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>87951</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Event.Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Event.Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Event.Date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>20015</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Make</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Make]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Make</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2004</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Model</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Model]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Model</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5333</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Aircraft.damage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Aircraft.damage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Aircraft.damage</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Amateur.Built</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Amateur.Built]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Amateur.Built</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>371</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number.of.Engines</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number.of.Engines]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number.of.Engines</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Engine.Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Engine.Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Engine.Type</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Purpose.of.flight</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Purpose.of.flight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Purpose.of.flight</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Weather.Condition</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Weather.Condition]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Weather.Condition</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Broad.phase.of.flight</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Broad.phase.of.flight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Broad.phase.of.flight</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Report.Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Report.Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Report.Status</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14292</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Fatal.Injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Fatal.Injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Fatal.Injuries</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Serious.Injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Serious.Injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Serious.Injuries</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Minor.Injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Minor.Injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Minor.Injuries</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Uninjured</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Uninjured]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Uninjured</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>331</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Injury Severity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Injury Severity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Injury Severity</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>is_fatal</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[is_fatal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>is_fatal</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>is_severe</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[is_severe]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>is_severe</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Kenya&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_5AC6D67CCA224FBA8DC338CD246DB3D5'>
+            <properties context=''>
+              <relation connection='excel-direct.1oai4z31s2cnw811q3sgg0c4yk9f' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:U10001:no:A1:U10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Event.Id' ordinal='0' />
+                  <column datatype='date' name='Event.Date' ordinal='1' />
+                  <column datatype='string' name='Make' ordinal='2' />
+                  <column datatype='string' name='Model' ordinal='3' />
+                  <column datatype='string' name='Aircraft.damage' ordinal='4' />
+                  <column datatype='string' name='Amateur.Built' ordinal='5' />
+                  <column datatype='string' name='Country' ordinal='6' />
+                  <column datatype='integer' name='Number.of.Engines' ordinal='7' />
+                  <column datatype='string' name='Engine.Type' ordinal='8' />
+                  <column datatype='string' name='Purpose.of.flight' ordinal='9' />
+                  <column datatype='string' name='Weather.Condition' ordinal='10' />
+                  <column datatype='string' name='Broad.phase.of.flight' ordinal='11' />
+                  <column datatype='string' name='Report.Status' ordinal='12' />
+                  <column datatype='integer' name='Total.Fatal.Injuries' ordinal='13' />
+                  <column datatype='integer' name='Total.Serious.Injuries' ordinal='14' />
+                  <column datatype='integer' name='Total.Minor.Injuries' ordinal='15' />
+                  <column datatype='integer' name='Total.Uninjured' ordinal='16' />
+                  <column datatype='integer' name='year' ordinal='17' />
+                  <column datatype='string' name='Injury Severity' ordinal='18' />
+                  <column datatype='integer' name='is_fatal' ordinal='19' />
+                  <column datatype='integer' name='is_severe' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Total fatal injuries by engine type'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_aviation_data)' name='federated.0snb0m2192y0k110t602u0c36aau' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0snb0m2192y0k110t602u0c36aau'>
+            <column datatype='string' name='[Engine.Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Fatal.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[Engine.Type]' derivation='None' name='[none:Engine.Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Fatal.Injuries]' derivation='Sum' name='[sum:Total.Fatal.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0snb0m2192y0k110t602u0c36aau].[sum:Total.Fatal.Injuries:qk]</rows>
+        <cols>[federated.0snb0m2192y0k110t602u0c36aau].[none:Engine.Type:nk]</cols>
+      </table>
+      <simple-id uuid='{6B4CF58D-D6FB-4273-B600-02527E4FBCAA}' />
+    </worksheet>
+    <worksheet name='Total fatal injuries by flight phase '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_aviation_data)' name='federated.0snb0m2192y0k110t602u0c36aau' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0snb0m2192y0k110t602u0c36aau'>
+            <column datatype='string' name='[Broad.phase.of.flight]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Fatal.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[Broad.phase.of.flight]' derivation='None' name='[none:Broad.phase.of.flight:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Fatal.Injuries]' derivation='Sum' name='[sum:Total.Fatal.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0snb0m2192y0k110t602u0c36aau].[sum:Total.Fatal.Injuries:qk]</rows>
+        <cols>[federated.0snb0m2192y0k110t602u0c36aau].[none:Broad.phase.of.flight:nk]</cols>
+      </table>
+      <simple-id uuid='{F24490AF-363B-4925-AF62-FFAE3B276CFA}' />
+    </worksheet>
+    <worksheet name='Total fatal injuries by purpose of flight'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_aviation_data)' name='federated.0snb0m2192y0k110t602u0c36aau' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0snb0m2192y0k110t602u0c36aau'>
+            <column datatype='string' name='[Purpose.of.flight]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Fatal.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[Purpose.of.flight]' derivation='None' name='[none:Purpose.of.flight:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Fatal.Injuries]' derivation='Sum' name='[sum:Total.Fatal.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0snb0m2192y0k110t602u0c36aau].[sum:Total.Fatal.Injuries:qk]</rows>
+        <cols>[federated.0snb0m2192y0k110t602u0c36aau].[none:Purpose.of.flight:nk]</cols>
+      </table>
+      <simple-id uuid='{89A7D514-57CA-4E3A-937B-FE563C4AFE0A}' />
+    </worksheet>
+    <worksheet name='Total fatal injuries by weather condition'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_aviation_data)' name='federated.0snb0m2192y0k110t602u0c36aau' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0snb0m2192y0k110t602u0c36aau'>
+            <column datatype='integer' name='[Total.Fatal.Injuries]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Weather.Condition]' role='dimension' type='nominal' />
+            <column-instance column='[Weather.Condition]' derivation='None' name='[none:Weather.Condition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Fatal.Injuries]' derivation='Sum' name='[sum:Total.Fatal.Injuries:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0snb0m2192y0k110t602u0c36aau].[sum:Total.Fatal.Injuries:qk]</rows>
+        <cols>[federated.0snb0m2192y0k110t602u0c36aau].[none:Weather.Condition:nk]</cols>
+      </table>
+      <simple-id uuid='{6215B7C1-7D40-418D-B3E2-F4D33D10C72E}' />
+    </worksheet>
+    <worksheet name='Total fatal injuries per year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_aviation_data)' name='federated.0snb0m2192y0k110t602u0c36aau' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0snb0m2192y0k110t602u0c36aau'>
+            <column datatype='integer' name='[Total.Fatal.Injuries]' role='measure' type='quantitative' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total.Fatal.Injuries]' derivation='Sum' name='[sum:Total.Fatal.Injuries:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0snb0m2192y0k110t602u0c36aau].[sum:Total.Fatal.Injuries:qk]</rows>
+        <cols>[federated.0snb0m2192y0k110t602u0c36aau].[none:year:qk]</cols>
+      </table>
+      <simple-id uuid='{CF5DEAC3-CF7D-42CB-A6F9-DFF51F567DC0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Aviation dashboard'>
+      <style />
+      <size maxheight='1000' maxwidth='1300' minheight='1000' minwidth='1300' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98400' id='3' name='Total fatal injuries per year' w='49333' x='667' y='800'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='98400' id='5' name='Total fatal injuries by flight phase ' w='24666' x='50000' y='800'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='98400' id='6' name='Total fatal injuries by weather condition' w='24667' x='74666' y='800'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98400' id='7' param='vert' type-v2='layout-flow' w='98666' x='667' y='800'>
+                <zone fixed-size='280' h='98400' id='3' is-fixed='true' name='Total fatal injuries per year' w='49333' x='667' y='800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98400' id='5' is-fixed='true' name='Total fatal injuries by flight phase ' w='24666' x='50000' y='800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98400' id='6' is-fixed='true' name='Total fatal injuries by weather condition' w='24667' x='74666' y='800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6E450D90-6AE1-4E45-A56C-FBFEB561CDEE}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Total fatal injuries per year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5D0FFDAB-3F2E-4F04-BC46-BEF1AD600762}' />
+    </window>
+    <window class='worksheet' name='Total fatal injuries by flight phase '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BC48FE48-816C-4FCA-B297-88075ED9E91B}' />
+    </window>
+    <window class='worksheet' name='Total fatal injuries by weather condition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B9B46BF7-E38B-4968-B186-051887205A73}' />
+    </window>
+    <window class='worksheet' name='Total fatal injuries by purpose of flight'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7B744217-E7C8-4C14-A356-BF00B5D06C76}' />
+    </window>
+    <window class='worksheet' name='Total fatal injuries by engine type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2D034416-207F-4EF9-A985-0987EA8DE609}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Aviation dashboard'>
+      <viewpoints>
+        <viewpoint name='Total fatal injuries by flight phase '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total fatal injuries by weather condition' />
+        <viewpoint name='Total fatal injuries per year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{E767105B-18E2-44EE-A320-FAA8FBDD5D41}' />
+    </window>
+  </windows>
+</workbook>
